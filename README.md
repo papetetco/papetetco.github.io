@@ -3,15 +3,10 @@
  <!DOCTYPE html>
 <html>
 <head>
-<style>
-img {
-  width: 100%;
-}
-</style>
 </head>
 <body>
 
-<img src="infographie.png" alt="Synthèse COPACEL" width="128" height="128">
+<img src="infographie.png" alt="Synthèse COPACEL" width="1085" height="608">
 
 </body>
 </html> 
