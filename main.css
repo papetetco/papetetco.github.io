@@ -2049,7 +2049,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #6fc391;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2071,7 +2071,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #6fc391;
 		}
 
 		input[type="button"].alt,
@@ -2079,7 +2079,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: #25565c;
 		}
 
 			input[type="button"].alt:hover,
@@ -2087,7 +2087,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #3B353C;
+				background: #25565c;
 			}
 
 /* Post */
