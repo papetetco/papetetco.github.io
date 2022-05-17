@@ -152,7 +152,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #6fc391;
 			border-bottom-color: transparent;
 		}
 
@@ -1929,7 +1929,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #6fc391;
 				}
 
 /* Form */
@@ -2140,7 +2140,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: #173539;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
@@ -2370,7 +2370,7 @@ input, select, textarea {
 			}
 
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #6fc391;
 			}
 
 			.dropotron li a, .dropotron li span {
