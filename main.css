@@ -105,7 +105,7 @@ input, select, textarea {
 	h1 {
 		font-weight: 400;
 		color: #fff;
-		line-height: 1.25em;
+		line-height: 3em;
 	}
 
 	h2, h3, h4, h5, h6 {
@@ -139,7 +139,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #25565c;
+		color: #fff;
 	}
 
 	em, i {
@@ -2934,7 +2934,7 @@ input, select, textarea {
 					#navButton .toggle:before {
 						text-decoration: none;
 						font-style: normal;
-						content: '\f0c9';
+						content: none;
 						color: #fff;
 						color: rgba(255, 255, 255, 0.75);
 						text-align: center;
