@@ -2162,18 +2162,15 @@ input, select, textarea {
 		padding: 2em 2em 2em 2em;
 		color: #fff;
 	}
-	#wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
-		color: #fff;
-	}
 	#wrapper .icon.circled {
 		background: #fff;
 		color: #fff;
 	}
-		.wrapper.style2 {
-			background: #edf8f1;
-			color: #173539
-			padding-top: 0;
-		}
+	.wrapper.style2 {
+		background: #edf8f1;
+		color: #173539
+		padding-top: 0;
+	}
 
 
 /* Header */
