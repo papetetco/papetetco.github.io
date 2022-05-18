@@ -2176,6 +2176,11 @@ input, select, textarea {
 		color: #173539
 		padding-top: 0;
 	}
+	#wrapper h1 {
+		color: #fff;
+		font-size: 3em;
+		line-height: 1em;
+	}
 
 
 /* Wrapper2 */
