@@ -2173,6 +2173,16 @@ input, select, textarea {
 	}
 
 
+/* Wrapper2 */
+
+	.wrapper2 {
+		background: #edf8f1;
+		margin: 0em 2em 0em 2em;
+		padding: 2em 2em 2em 2em;
+		color: #173539;
+	}
+
+
 /* Header */
 
 	#header {
