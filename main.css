@@ -2158,8 +2158,8 @@ input, select, textarea {
 
 	.wrapper {
 		background: #173539;
-		margin: 1em 4em 1em 4em;
-		padding: 0 0 0 0;
+		margin: 0em 2em 0em 2em;
+		padding: 1em 1em 1em 1em;
 		color: #fff;
 	}
 	#wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
