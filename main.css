@@ -77,7 +77,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f7faeb;
+		background: #edf8f1;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -2412,7 +2412,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #f7faeb;
+		background: #edf8f1;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
