@@ -2157,22 +2157,22 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #2b252c;
-		margin: 0 0 2em 0;
+		background: #173539;
+		margin: 6em 12em 2em 0;
 		padding: 6em 0 6em 0;
 		color: #fff;
 	}
-
+	#wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
+		color: #fff;
+	}
+	#wrapper .icon.circled {
+		background: #fff;
+		color: #173539;
+	}
 		.wrapper.style2 {
 			padding-top: 0;
 		}
-		#wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
-			color: #fff;
-		}
-		#wrapper .icon.circled {
-			background: #fff;
-			color: #2b252c;
-		}
+
 
 /* Header */
 
