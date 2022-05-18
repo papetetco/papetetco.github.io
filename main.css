@@ -102,8 +102,13 @@ input, select, textarea {
 		font-family: 'Nunito', sans-serif;
 		font-weight: 300;
 	}
+	h1 {
+		font-weight: 400;
+		color: #fff;
+		line-height: 1.25em;
+	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		color: #25565c;
 		line-height: 1.25em;
