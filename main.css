@@ -222,7 +222,7 @@ input, select, textarea {
 		}
 
 	.timestamp {
-		color: #cf221d;
+		color: #3f8e9A;
 		font-size: 0.8em;
 	}
 
@@ -2161,9 +2161,9 @@ input, select, textarea {
 			}
 
 /* Wrapper */
-
+<!-- db6a59 -->
 	.wrapper {
-		background: #db6a59;
+		background: #173539 ;
 		margin: 0em 0em 0em 0em;
 		padding: 2em 4em 2em 4em;
 		color: #fff;
