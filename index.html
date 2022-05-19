@@ -195,11 +195,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-						
+			<!-- 			
 			<script>
 				let text = document.lastModified;
 				document.getElementById("modif").innerHTML = text;
 			</script>
+			-->
+									
+			<SCRIPT LANGUAGE="JavaScript">
+			update = new Date(document.lastModified)
+			theMonth = update.getMonth() + 1
+			theDate = update.getDate()
+			theYear = update.getFullYear()
+				document.getElementById("modif").innerHTML = theDate + "/" + theMonth + "/" + theYear;				
+			</SCRIPT>
 									
 	</body>
 </html>
