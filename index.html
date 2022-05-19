@@ -180,7 +180,7 @@
 	<div id="footer">
 		<div class="copyright">
 			<ul class="menu">
-				<li>Papet&Co</li><li>document.lastModified</li>
+				<li>Papet&Co</li><li id="modif"></li>
 			</ul>
 		</div>
 	</div>
@@ -195,6 +195,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+						
+			<script>
+				let text = document.lastModified;
+				document.getElementById("modif").innerHTML = text;
+			</script>
 									
 	</body>
 </html>
