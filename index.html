@@ -204,8 +204,8 @@
 									
 			<SCRIPT LANGUAGE="JavaScript">
 			update = new Date(document.lastModified)
-			theMonth = update.getMonth() + 1
-			theDate = update.getDate()
+			theMonth = ("0" + (update.getMonth() + 1)).slice(-2)
+			theDate = ("0" + update.getDate()).slice(-2)
 			theYear = update.getFullYear()
 				document.getElementById("modif").innerHTML = theDate + "/" + theMonth + "/" + theYear;				
 			</SCRIPT>
