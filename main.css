@@ -2511,7 +2511,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			text-align: center;
-			color: rgba(128, 128, 128, 0.75);
+			color: #3f8e9A;
 			font-size: 0.8em;
 			cursor: default;
 		}
