@@ -1,1 +1,141 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>PAPET&CO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+<body class="homepage is-preload">
+	<div id="page-wrapper">
+		<div class="wrapper style1">
+		<header>
+			<a href="#"onclick="javascript:window.history.back(-1);return false;"> &lt; Accueil</a>
+			
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Accueil</a></li>
+								<li>
+									<a href="#">Templates</a>
+									<ul>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Magna phasellus</a></li>
+										<li><a href="#">Etiam dolore nisl</a></li>
+										<li>
+											<a href="#">And a submenu &hellip;</a>
+											<ul>
+												<li><a href="#">Lorem ipsum dolor</a></li>
+												<li><a href="#">Phasellus consequat</a></li>
+												<li><a href="#">Magna phasellus</a></li>
+												<li><a href="#">Etiam dolore nisl</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Veroeros feugiat</a></li>
+									</ul>
+								</li>
+								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="right-sidebar.html">Right Sidebar</a></li>
+								<li><a href="no-sidebar.html">No Sidebar</a></li>
+							</ul>
+						</nav>			
+			
+		</header>
+			<div class="row">
+				<section class="col-3 col-12-mobile">
+					<ul class="divided">
+						<li>
+							<article class="tweet">
+								<a href="#">Liste de templates Papet&Co</a><br>
+							</article>
+						</li>
+					</ul>
+				</section>
+									
+<br>
+
+			<div class="wrapper2">
+				<header>
+						<a id="#defil"><h3>Articles défilants</h3></a>
+				</header>
+				 <ul>
+  					<li>Titre (court)</li>
+  					<li>Présentation (en 4-5 mots)</li>
+  					<li>Image format carré (min 800*800px)</li>
+				</ul>
+			</div>
+<br>
+
+			<div class="wrapper2">
+				<header>
+						<a href="#note.html"><h3>Note, synthèse (long texte, directement sur le site)</h3></a>
+				</header>
+				 <ul>
+  					<li>Titre</li>
+  					<li>Abstract (résumé de qq lignes)</li>
+  					<li>Texte brut non mis en page sauf paragraphes (doivent être séparés par &#60;br&#62;)</li>
+					<li>Prévoir les éléments pour son inclusion dans les <a href="#defil">articles défilants</a></li>
+				</ul>
+			</div>
+<br>
+			<div class="wrapper2">
+				<header>
+						<a href="#ressource.html"><h3>Ressource (fichier image ou pdf à lire sur le site)</h3></a>
+				</header>
+				 <ul>
+  					<li>Titre (court)</li>
+  					<li>Abstract (résumé de qq lignes)</li>
+  					<li>Fichier (.jpg, .png, .pdf de préférence) </li>
+					<li>Prévoir les éléments pour son inclusion dans les <a href="#defil">articles défilants</a></li>
+				</ul>
+			</div>
+<br>
+			<div class="wrapper2">
+				<header>
+						<a href="#event.html"><h3>Événement (page avec beaucoup d'images, photos, etc. et un peu de texte)</h3></a>
+				</header>
+				 <ul>
+  					<li>Titre (court)</li>
+  					<li>Texte de présentation</li>
+  					<li>Fichiers images (.jpg, .png de préférence) </li>
+					<li>Prévoir les éléments pour son inclusion dans les <a href="#defil">articles défilants</a></li>
+				</ul>
+			</div>
+									
+	<div id="footer">
+		<div class="copyright">
+			<ul class="menu">
+				<li>Papet&Co</li><li id="modif"></li>
+			</ul>
+		</div>
+	</div>
+</div>						
+			
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<!-- 			
+			<script>
+				let text = document.lastModified;
+				document.getElementById("modif").innerHTML = text;
+			</script>
+			-->
+									
+			<SCRIPT LANGUAGE="JavaScript">
+			update = new Date(document.lastModified)
+			theMonth = ("0" + (update.getMonth() + 1)).slice(-2)
+			theDate = ("0" + update.getDate()).slice(-2)
+			theYear = update.getFullYear()
+				document.getElementById("modif").innerHTML = theDate + "/" + theMonth + "/" + theYear;				
+			</SCRIPT>
+									
+	</body>
+</html>
 
