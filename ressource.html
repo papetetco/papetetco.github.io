@@ -10,81 +10,85 @@
 <body class="homepage is-preload">
 <div id="page-wrapper">
 	<div class="wrapper style1">
-		<header>
+		<<header>
 			<a href="#"onclick="javascript:window.history.back(-1);return false;"> &lt; Accueil</a>
 		</header>
 		<br>
+		<div class="container">
+		<header>
+			<h2><a href="#">Nom de la ressource</a></h2>
+			<p>
+				Description courte
+			</p>
+		</header>
+		<a href="#" class="image fit"><img src="images/header43b.png" alt="" /></a>
+		<br>
 		<section class="container special">
 			<div class="row">
-				<article class="col-4 col-12-mobile">
-				      <a href="#" class="image fit"><img src="images/ecz1.png" alt="" /></a>
-					<p></p>
-				</article>
-       				 <article class="col-4 col-12-mobile">
-				      <a href="#" class="image fit"><img src="images/ecz2.png" alt="" /></a>
-					 <p></p>
-				</article>
-        			<article class="col-4 col-12-mobile">
-				      <a href="#" class="image fit"><img src="images/ecz3.png" alt="" /></a>
-					<p></p>
-				</article>
-			</div>
-		</section>
-				<br>
-		<section class="container special">
-			<div class="row">
-				<article class="col-310 col-12-mobile">
+				<article class="col-2 col-12-mobile">
 				      <a href="#" class="image fit"><img src="images/ecozone/1.jpg" alt="" /></a>
-					<p></p>
+					<h4>Autre article</h4>
+					<p>
+						Présentation en quelques mots
+					</p>
 				</article>
-       				 <article class="col-15 col-12-mobile">
+       			<article class="col-2 col-12-mobile">
 				      <a href="#" class="image fit"><img src="images/ecozone/2.jpg" alt="" /></a>
-					 <p></p>
+					<h4>Autre article</h4>
+					<p>
+						Présentation en quelques mots
+					</p>
 				</article>
-        			<article class="col-310 col-12-mobile">
+        		<article class="col-2 col-12-mobile">
 				      <a href="#" class="image fit"><img src="images/ecozone/3.jpg" alt="" /></a>
-					<p></p>
+					<h4>Autre article</h4>
+					<p>
+						Présentation en quelques mots
+					</p>
 				</article>
-				<article class="col-15 col-12-mobile">
+				<article class="col-2 col-12-mobile">
 				      <a href="#" class="image fit"><img src="images/ecozone/4.jpg" alt="" /></a>
-					 <p></p>
-				</article>
-			</div>
-			<br>
-			<div class="row">
-				<article class="col-15 col-12-mobile">
-				      <a href="#" class="image fit"><img src="images/ecozone/5.jpg" alt="" /></a>
-					<p></p>
-				</article>
-       				 <article class="col-310 col-12-mobile">
-				      <a href="#" class="image fit"><img src="images/ecozone/6.jpg" alt="" /></a>
-					 <p></p>
-				</article>
-        			<article class="col-15 col-12-mobile">
-				      <a href="#" class="image fit"><img src="images/ecozone/7.jpg" alt="" /></a>
-					<p></p>
-				</article>
-				<article class="col-310 col-12-mobile">
-				      <a href="#" class="image fit"><img src="images/ecozone/8.jpg" alt="" /></a>
-					 <p></p>
+					<h4>Autre article</h4>
+					<p>
+						Présentation en quelques mots
+					</p>
 				</article>
 			</div>
 		</section>
-		
 			
+			<div id="footer">
+				<div class="copyright">
+					<ul class="menu">
+						<li>Papet&#38;Co</li><li id="modif"></li>
+					</ul>
+				</div>
+			</div>
 			
-			
-	</div>		
-</div>
-      		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+	</div>
+</div>					
+				
+			<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.dropotron.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/jquery.scrollex.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+				<!-- 			
+				<script>
+					let text = document.lastModified;
+					document.getElementById("modif").innerHTML = text;
+				</script>
+				-->
+										
+				<SCRIPT LANGUAGE="JavaScript">
+				update = new Date(document.lastModified)
+				theMonth = ("0" + (update.getMonth() + 1)).slice(-2)
+				theDate = ("0" + update.getDate()).slice(-2)
+				theYear = update.getFullYear()
+					document.getElementById("modif").innerHTML = theDate + "/" + theMonth + "/" + theYear;				
+				</SCRIPT>
 	</body>
 </html>
