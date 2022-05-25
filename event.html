@@ -78,7 +78,13 @@
 			</div>
 		</section>
 		
-			
+		<div id="footer">
+		<div class="copyright">
+			<ul class="menu">
+				<li>Papet&Co</li><li id="modif"></li>
+			</ul>
+		</div>
+	</div>	
 			
 			
 	</div>		
@@ -92,6 +98,14 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			
+			<SCRIPT LANGUAGE="JavaScript">
+				update = new Date(document.lastModified)
+				theMonth = ("0" + (update.getMonth() + 1)).slice(-2)
+				theDate = ("0" + update.getDate()).slice(-2)
+				theYear = update.getFullYear()
+				document.getElementById("modif").innerHTML = theDate + "/" + theMonth + "/" + theYear;				
+			</SCRIPT>
+							
 	</body>
 </html>
