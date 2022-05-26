@@ -1758,7 +1758,7 @@ input, select, textarea {
   float: left;
   width: 22%;
   margin: 1em 1em;
-  padding: 0em 1em;
+  padding: 0em 0em;
   background: #edf8f1;
   color: #173539;
 }
@@ -1769,13 +1769,13 @@ input, select, textarea {
 	background: #edf8f1;
 	color: #173539;
     width: 70%;
-	margin: 1em 1em;
     display: block;
   }
 }
 
 /* Add some shadows to create a card effect */
 .card {
+	margin: 1em 1em;
 	box-shadow: 0 4px 8px 0 rgba(237, 248, 241, 0.2);
 }
 
