@@ -1759,11 +1759,13 @@ input, select, textarea {
   width: 25%;
   margin-bottom: 1em;
   padding: 0em 1em;
+  color: #edf8f1;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
+	color: #edf8f1;
     width: 100%;
     display: block;
   }
@@ -1771,7 +1773,6 @@ input, select, textarea {
 
 /* Add some shadows to create a card effect */
 .card {
-	color: #edf8f1;
 	padding: 1em 1em;
 	box-shadow: 0 4px 8px 0 rgba(237, 248, 241, 0.2);
 }
