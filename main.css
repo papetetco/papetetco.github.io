@@ -1758,7 +1758,7 @@ input, select, textarea {
   float: left;
   width: 25%;
   margin-bottom: 1em;
-  padding: 0 1em;
+  padding: 0em 1em;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -1771,8 +1771,8 @@ input, select, textarea {
 
 /* Add some shadows to create a card effect */
 .card {
-	padding: 0 1em;
-	box-shadow: 0 4px 8px 0 rgba(237, 248, 241, 0.2);
+	padding: 1em 1em;
+	box-shadow: 0 8px 8px 0 rgba(237, 248, 241, 0.2);
 }
 
 
