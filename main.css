@@ -1776,7 +1776,6 @@ input, select, textarea {
 
 /* Add some shadows to create a card effect */
 .card {
-	padding: 1em 1em;
 	box-shadow: 0 4px 8px 0 rgba(237, 248, 241, 0.2);
 }
 
