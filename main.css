@@ -1756,7 +1756,7 @@ input, select, textarea {
  /* Three columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 22%;
   margin: 1em 1em;
   padding: 0em 1em;
   background: #edf8f1;
@@ -1767,7 +1767,9 @@ input, select, textarea {
 @media screen and (max-width: 650px) {
   .column {
 	background: #edf8f1;
-    width: 100%;
+	color: #173539;
+    width: 70%;
+	margin: 1em 1em;
     display: block;
   }
 }
