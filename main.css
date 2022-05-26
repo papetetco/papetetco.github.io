@@ -1757,7 +1757,7 @@ input, select, textarea {
 .column {
   float: left;
   width: 25%;
-  margin: 1em;
+  margin: 1em 1em;
   padding: 0em 1em;
   background: #edf8f1;
 }
