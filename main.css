@@ -1756,7 +1756,7 @@ input, select, textarea {
  /* Three columns side by side */
 .column {
   float: left;
-  width: 22%;
+  width: 30%;
   margin: 1em 1em;
   padding: 0em 0em;
   background: #edf8f1;
