@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -104,7 +105,7 @@ input, select, textarea {
 		font-weight: 300;
 	}
 	h1 {
-		font-family: 'Train One', cursive;
+		font-family: 'Amaranth', sans-serif;
 		color: #edf8f1;
 		line-height: 1.25em;
 		font-size: 4em;
