@@ -105,12 +105,15 @@ input, select, textarea {
 		font-weight: 300;
 	}
 	h1 {
-		font-family: 'Amaranth', sans-serif;
+		font-family: senobi-gothic, sans-serif;
 		color: #edf8f1;
-		line-height: 1.25em;
-		font-size: 4em;
+		font-weight:700;
+		font-size: 6em;
+		line-height: 1em;
+		letter-spacing: -0.2em
 	}
 	
+
 	h2 {
 		font-weight: 400;
 		color: #6fc391;
@@ -123,6 +126,7 @@ input, select, textarea {
 		color: #25565c;
 		line-height: 1.25em;
 	}
+	
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
@@ -131,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-		font-weight: 600;
+		font-weight: 700;
 	}
 
 	h3 {
@@ -2221,7 +2225,7 @@ input, select, textarea {
 	}
 	#wrapper h1 {
 		color: #fff;
-		font-size: 3em;
+		font-size: 8em;
 		line-height: 1em;
 	}
 
@@ -2285,7 +2289,7 @@ input, select, textarea {
 
 		#header h1 {
 			color: #fff;
-			font-size: 3em;
+			font-size: 4em;
 			line-height: 1em;
 		}
 
