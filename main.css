@@ -111,9 +111,9 @@ input, select, textarea {
 		font-family: senobi-gothic, sans-serif;
 		color: #edf8f1;
 		font-weight:700;
-		font-size: 6em;
 		line-height: 1em;
-		letter-spacing: -0.2em
+		letter-spacing: -0.2em;
+		font-size: 6em;
 	}
 	
 
@@ -2841,6 +2841,10 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 12.5pt;
 				line-height: 1.5em;
+			}
+			
+			h1 {
+				font-size: 3em;
 			}
 
 			h2 {
