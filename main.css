@@ -2104,7 +2104,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #6fc391;
+		background: #FF9933;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2126,7 +2126,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #6fc391;
+			background: #FFDF0C;
 		}
 
 		input[type="button"].alt,
@@ -2210,7 +2210,6 @@ input, select, textarea {
 			}
 
 /* Wrapper */
-/* db6a59 */
 	.wrapper {
 		background: #173539 ;
 		margin: 0em 0em 0em 0em;
@@ -2247,7 +2246,7 @@ input, select, textarea {
 	.wrapper3 {
 		background: #FF9933;
 		margin: 0em 0em 0em 0em;
-		padding: 1em 1em 1em 1em;
+		padding: 2em 4em 2em 4em;
 		color: #edf8f1;
 	}
 	
@@ -2259,7 +2258,7 @@ input, select, textarea {
 		/* background-attachment: fixed; */
 		color: #fff;
 		text-align: center;
-		padding: 15em 0 0em 0;
+		padding: 20em 0 0em 0;
 		cursor: default;
 	}
 
