@@ -2277,6 +2277,13 @@ input, select, textarea {
 		color: #edf8f1;
 	}
 	
+	.wrapper5 {
+		background: #199459;
+		margin: 0em 0em 0em 0em;
+		padding: 2em 4em 2em 4em;
+		color: #edf8f1;
+	}
+	
 	#newsletter1{
 		position: relative;
 		background-image: url("images/mai2022.jpg");
@@ -2292,6 +2299,18 @@ input, select, textarea {
 	#newsletter2{
 			position: relative;
 			background-image: url("images/juillet2022.jpg");
+			background-size: cover;
+			background-position: center center;
+			/* background-attachment: fixed; */
+			color: #fff;
+			text-align: center;
+			padding: 20em 0 0em 0;
+			cursor: default;
+	}
+	
+	#newsletter3{
+			position: relative;
+			background-image: url("images/sept2022.jpg");
 			background-size: cover;
 			background-position: center center;
 			/* background-attachment: fixed; */
