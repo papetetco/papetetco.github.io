@@ -2913,7 +2913,125 @@ input, select, textarea {
 			.carousel article p {
 				text-align: center;
 			}
+			
+			
+/* carouseli */
 
+	.carouseli {
+		position: relative;
+		overflow: hidden;
+		padding: 2em 0 2em 0;
+		margin-bottom: 0;
+	}
+
+		.carouseli .forward, .carouseli .backward {
+			position: absolute;
+			top: 50%;
+			width: 6em;
+			height: 12em;
+			margin-top: -6em;
+			cursor: pointer;
+		}
+
+			.carouseli .forward:before, .carouseli .backward:before {
+				content: '';
+				display: block;
+				width: 6em;
+				height: 6em;
+				border-radius: 100%;
+				background-color: rgba(37, 86, 92, 0.5);
+				position: absolute;
+				top: 50%;
+				margin-top: -3em;
+				-moz-transition: background-color 0.35s ease-in-out;
+				-webkit-transition: background-color 0.35s ease-in-out;
+				-o-transition: background-color 0.35s ease-in-out;
+				-ms-transition: background-color 0.35s ease-in-out;
+				transition: background-color 0.35s ease-in-out;
+				-webkit-backface-visibility: hidden;
+			}
+
+			.carouseli .forward:after, .carouseli .backward:after {
+				content: '';
+				width: 3em;
+				height: 3em;
+				position: absolute;
+				top: 50%;
+				margin: -1.5em 0 0 0;
+				background: url("images/arrow.svg") no-repeat center center;
+			}
+
+			.carouseli .forward:hover:before, .carouseli .backward:hover:before {
+				background-color: rgba(111, 195, 145, 0.75);
+			}
+
+		.carouseli .forward {
+			right: 0;
+		}
+
+			.carouseli .forward:before {
+				right: -3em;
+			}
+
+			.carouseli .forward:after {
+				right: 0em;
+			}
+
+		.carouseli .backward {
+			left: 0;
+		}
+
+			.carouseli .backward:before {
+				left: -3em;
+			}
+
+			.carouseli .backward:after {
+				left: -0.25em;
+				-moz-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				-ms-transform: scaleX(-1);
+				transform: scaleX(-1);
+			}
+
+		.carouseli .reel {
+			white-space: nowrap;
+			position: relative;
+			-webkit-overflow-scrolling: touch;
+			padding: 0 2em 0 2em;
+		}
+
+		.carouseli article {
+			display: inline-block;
+			width: 18em;
+			background: #fff;
+			text-align: center;
+			padding: 0 1em 0 1em;
+			margin: 0 0 0 0;
+			white-space: normal;
+			opacity: 1.0;
+			-moz-transition: opacity 0.75s ease-in-out;
+			-webkit-transition: opacity 0.75s ease-in-out;
+			-ms-transition: opacity 0.75s ease-in-out;
+			transition: opacity 0.75s ease-in-out;
+		}
+
+			.carouseli article.loading {
+				opacity: 0;
+			}
+
+			.carouseli article .image {
+				position: relative;
+				left: -1em;
+				top: 0;
+				width: auto;
+				margin-right: -2em;
+				margin-bottom: 0em;
+			}
+
+			.carouseli article p {
+				text-align: center;
+			}
+			
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2939,6 +3057,23 @@ input, select, textarea {
 				/* TAILLE */
 				.carousel article {
 					width: 14em;
+					margin: 0 1.25em 0 0;
+				}
+		
+		/* carouseli */
+
+			.carouseli {
+				padding: 1.5em 0 1.5em 0;
+			}
+
+				.carouseli .reel {
+					padding: 0 1.5em 0 1.5em;
+				}
+				
+				
+				/* TAILLE */
+				.carouseli article {
+					width: 10em;
 					margin: 0 1.25em 0 0;
 				}
 
@@ -3024,10 +3159,22 @@ input, select, textarea {
 			}
 
 				.carousel article {
-					width: 18em;
+					width: 14em;
 					margin: 0 1em 0 0;
 				}
+		
+		/* carouseli */
 
+			.carouseli {
+				padding: 1.5em 0 1.5em 0;
+			}
+
+		
+				/* TAILLE */
+				.carouseli article {
+					width: 6em;
+					margin: 0 1.25em 0 0;
+				}
 	}
 
 /* Mobile */
@@ -3453,6 +3600,26 @@ input, select, textarea {
 				}
 
 					.carousel article .image {
+						margin-bottom: 2em;
+					}
+		
+		/* carouseli */
+
+			.carouseli {
+				padding: 0.5em 0 0.5em 0;
+			}
+
+				.carouseli .reel {
+					padding: 0 0.5em 0 0.5em;
+				}
+
+				.carouseli article {
+					width: 6em;
+					padding-bottom: 2em;
+					margin: 0 0.5em 0 0;
+				}
+
+					.carouseli article .image {
 						margin-bottom: 2em;
 					}
 
