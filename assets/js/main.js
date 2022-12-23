@@ -231,38 +231,38 @@
 				timerId;
 
 			// Items.
-				if (settings.carousels.fadeIn) {
+				// if (settings.carousels.fadeIn) {
 
-					$items.addClass('loading');
+					// $items.addClass('loading');
 
-					$t.scrollex({
-						mode: 'middle',
-						top: '-20vh',
-						bottom: '-20vh',
-						enter: function() {
+					// $t.scrollex({
+						// mode: 'middle',
+						// top: '-20vh',
+						// bottom: '-20vh',
+						// enter: function() {
 
-							var	timerId,
-								limit = $items.length - Math.ceil($window.width() / itemWidth);
+							// var	timerId,
+								// limit = $items.length - Math.ceil($window.width() / itemWidth);
 
-							timerId = window.setInterval(function() {
-								var x = $items.filter('.loading'), xf = x.first();
+							// timerId = window.setInterval(function() {
+								// var x = $items.filter('.loading'), xf = x.first();
 
-								if (x.length <= limit) {
+								// if (x.length <= limit) {
 
-									window.clearInterval(timerId);
-									$items.removeClass('loading');
-									return;
+									// window.clearInterval(timerId);
+									// $items.removeClass('loading');
+									// return;
 
-								}
+								// }
 
-								xf.removeClass('loading');
+								// xf.removeClass('loading');
 
-							}, settings.carousels.fadeDelay);
+							// }, settings.carousels.fadeDelay);
 
-						}
-					});
+						// }
+					// });
 
-				}
+				// }
 
 			// Main.
 				$t._update = function() {
