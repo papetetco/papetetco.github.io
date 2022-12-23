@@ -3615,12 +3615,12 @@ input, select, textarea {
 
 				.carouseli article {
 					width: 6em;
-					padding-bottom: 2em;
+					padding-bottom: 0em;
 					margin: 0 0.5em 0 0;
 				}
 
 					.carouseli article .image {
-						margin-bottom: 2em;
+						margin-bottom: 0em;
 					}
 
 	}
