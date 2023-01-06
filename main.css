@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,300italic,400,400italic,600");
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,300italic,400,400italic,600,600italic,900");
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
@@ -55,7 +55,7 @@ body {
 }
 
 mark {
-	background-color: transparent;
+	background-color: #6FC391;
 	color: inherit;
 }
 
@@ -124,10 +124,22 @@ input, select, textarea {
 		font-size: 2.85em;
 	}
 
-	h3, h4, h5, h6 {
-		font-weight: 400;
+	h3, h5, h6 {
+		font-weight: 600;
 		color: #25565c;
 		line-height: 1.25em;
+	}
+	
+	h4 {
+		color: #6fc391;
+		font-size: 1em;
+		margin: 0 0 0.25em 0;
+	}
+	
+	h5 {
+		font-weight: 100;
+		color: #edf8f1;
+		font-size: 1.5em;
 	}
 	
 
@@ -138,22 +150,19 @@ input, select, textarea {
 	}
 
 	h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-		font-weight: 700;
+		font-weight: 900;
 	}
 
-	h3 {
-		font-size: 1.25em;
-	}
 
-	h4 {
-		color: #6fc391;
-		font-size: 1em;
-		margin: 0 0 0.25em 0;
-	}
 
 	strong, b {
+		font-weight: 900;
+	}
+	
+	strong {
 		font-weight: 600;
 	}
+	
 
 	em, i {
 		font-family: 'Nunito', sans-serif;
@@ -163,6 +172,7 @@ input, select, textarea {
 	a {
 		color: inherit;
 		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
+		border-bottom-color: transparent;
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -330,6 +340,14 @@ input, select, textarea {
 
 		.row > .imp {
 			order: -1;
+		}
+		
+		.row > .col-0 {
+			width: 2.08333%;
+		}
+		
+		.row > .col-13 {
+			width: 94.33333%;
 		}
 
 		.row > .col-1 {
@@ -2164,6 +2182,70 @@ input, select, textarea {
 			color: #fff;
 			background: #FFDF0C;
 		}
+		
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button0 {
+		position: relative;
+		display: inline-block;
+		background: #173539;
+		color: #fff;
+		text-align: center;
+		border-radius: 0.5em;
+		text-decoration: none;
+		padding: 0.65em 2em 0.65em 2em;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button0:hover,
+		.button0:hover {
+			color: #fff;
+			background: #6FC391;
+		}
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	buttonalt,
+	.button0alt {
+		position: relative;
+		display: inline-block;
+		background: #fff;
+		color: #173539;
+		text-align: center;
+		border-radius: 0.5em;
+		text-decoration: none;
+		padding: 0.65em 2em 0.65em 2em;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		buttonalt:hover,
+		.button0alt:hover {
+			color: #fff;
+			background: #6FC391;
+		}
 	
 	input[type="button"],
 	input[type="submit"],
@@ -2177,7 +2259,7 @@ input, select, textarea {
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
-		padding: 0.65em 3em 0.65em 3em;
+		padding: 0.65em 2em 0.65em 2em;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
@@ -2209,7 +2291,7 @@ input, select, textarea {
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
-		padding: 0.65em 3em 0.65em 3em;
+		padding: 0.65em 2em 0.65em 2em;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
@@ -3003,7 +3085,7 @@ input, select, textarea {
 		.carouseli article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #173539;
 			text-align: center;
 			padding: 0 1em 0 1em;
 			margin: 0 0 0 0;
@@ -3029,7 +3111,7 @@ input, select, textarea {
 			}
 
 			.carouseli article p {
-				text-align: center;
+				text-align: left;
 			}
 			
 /* Wide */
@@ -3299,18 +3381,62 @@ input, select, textarea {
 				display: block;
 				padding: 0;
 				line-height: 3em;
-				width: 100%;
+				/* width: 100%; */
 			}
 			
 			input[type="button"],
 			input[type="submit"],
 			input[type="reset"],
 			button.alt,
-			.button2{
+			.button {
 				display: block;
 				padding: 0;
 				line-height: 3em;
-				width: 100%;
+				/* width: 100%; */
+			}
+			
+			input[type="button"],
+			input[type="submit"],
+			input[type="reset"],
+			button,
+			.button0 {
+				display: block;
+				padding: 0;
+				line-height: 3em;
+				/* width: 100%; */
+			}
+			
+			input[type="button"],
+			input[type="submit"],
+			input[type="reset"],
+			button.alt,
+			.button0 {
+				display: block;
+				padding: 0;
+				line-height: 3em;
+				/* width: 100%; */
+			}
+			
+			input[type="button"],
+			input[type="submit"],
+			input[type="reset"],
+			button,
+			.button2 {
+				display: block;
+				padding: 0;
+				line-height: 3em;
+				/* width: 100%; */
+			}
+			
+			input[type="button"],
+			input[type="submit"],
+			input[type="reset"],
+			button.alt,
+			.button2alt {
+				display: block;
+				padding: 0;
+				line-height: 3em;
+				/* width: 100%; */
 			}
 
 
@@ -3554,9 +3680,9 @@ input, select, textarea {
 
 		/* Nav */
 
-			#nav {
-				display: none;
-			}
+			/* #nav { */
+				/* display: none; */
+			/* } */
 
 		/* Banner */
 
@@ -3614,7 +3740,7 @@ input, select, textarea {
 				}
 
 				.carouseli article {
-					width: 6em;
+					width: 8em;
 					padding-bottom: 0em;
 					margin: 0 0.5em 0 0;
 				}
