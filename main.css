@@ -2318,7 +2318,7 @@ input, select, textarea {
 	.button3 {
 		position: relative;
 		display: inline-block;
-		background: #DA4C3B;
+		background: #6FC391;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2351,7 +2351,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: #fff;
-		color: #DA4C3B;
+		color: #6FC391;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2460,7 +2460,17 @@ input, select, textarea {
 		font-size: 8em;
 		line-height: 1em;
 	}
-
+	
+	.wrapperbg {
+		background-image: url("papetetcofond.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		/* background: #edf8f1; */
+		margin: 0em 2em 0em 2em;
+		padding: 1em 1em 1em 1em;
+		color: #fff;
+	}
 
 /* Wrapper2 */
 
@@ -2495,7 +2505,7 @@ input, select, textarea {
 	}
 	
 	.wrapper6 {
-		background: #DA4C3B;
+		background: #6FC391;
 		margin: 0em 0em 0em 0em;
 		padding: 2em 4em 2em 4em;
 		color: #edf8f1;
@@ -2539,7 +2549,7 @@ input, select, textarea {
 	
 	#newsletter4{
 			position: relative;
-			background-image: url("images/jan2022.png");
+			background-image: url("images/fev2023.png");
 			background-size: cover;
 			background-position: center center;
 			/* background-attachment: fixed; */
