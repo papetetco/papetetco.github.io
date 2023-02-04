@@ -108,12 +108,12 @@ input, select, textarea {
 		font-weight: 300;
 	}
 	h1 {
-		font-family: senobi-gothic, sans-serif;
+		font-family: 'Nunito', sans-serif;
 		color: #edf8f1;
-		font-weight:700;
+		font-weight:300;
 		line-height: 1em;
-		letter-spacing: -0.2em;
-		font-size: 6em;
+		letter-spacing: 10pt;
+		font-size: 60pt;
 	}
 	
 
@@ -150,12 +150,12 @@ input, select, textarea {
 	}
 
 	h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-		font-weight: 900;
+		font-weight: 700;
 	}
 
 
 
-	strong, b {
+	b {
 		font-weight: 900;
 	}
 	
