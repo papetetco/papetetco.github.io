@@ -108,11 +108,11 @@ input, select, textarea {
 		font-weight: 300;
 	}
 	h1 {
-		font-family: 'Nunito', sans-serif;
+		font-family: senobi-gothic;
 		color: #edf8f1;
-		font-weight:300;
+		font-weight:900;
 		line-height: 1em;
-		letter-spacing: 10pt;
+		letter-spacing: -.2em;
 		font-size: 60pt;
 	}
 	
