@@ -2318,7 +2318,7 @@ input, select, textarea {
 	.button3 {
 		position: relative;
 		display: inline-block;
-		background: #6FC391;
+		background: #17BDCF;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2351,7 +2351,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: #fff;
-		color: #6FC391;
+		color: #17BDCF;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2505,7 +2505,7 @@ input, select, textarea {
 	}
 	
 	.wrapper6 {
-		background: #6FC391;
+		background: #17BDCF;
 		margin: 0em 0em 0em 0em;
 		padding: 2em 4em 2em 4em;
 		color: #edf8f1;
@@ -2549,7 +2549,7 @@ input, select, textarea {
 	
 	#newsletter4{
 			position: relative;
-			background-image: url("images/fev2023.png");
+			background-image: url("images/mars2023.jpg");
 			background-size: cover;
 			background-position: center center;
 			/* background-attachment: fixed; */
