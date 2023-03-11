@@ -2119,9 +2119,12 @@ input, select, textarea {
 
 /* Button */
 
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
+	
+	
 	button,
 	.button {
 		position: relative;
@@ -2142,18 +2145,15 @@ input, select, textarea {
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			color: #fff;
-			background: #FFDF0C;
-		}
+	input[type="button"]:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	button:hover,
+	.button:hover {
+		color: #fff;
+		background: #FFDF0C;
+	}
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
 	buttonalt,
 	.buttonalt {
 		position: relative;
@@ -2174,18 +2174,12 @@ input, select, textarea {
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
 		buttonalt:hover,
 		.buttonalt:hover {
 			color: #fff;
 			background: #FFDF0C;
 		}
 		
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
 	button,
 	.button0 {
 		position: relative;
@@ -2206,18 +2200,12 @@ input, select, textarea {
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
 		button0:hover,
 		.button0:hover {
 			color: #fff;
 			background: #6FC391;
 		}
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
 	buttonalt,
 	.button0alt {
 		position: relative;
@@ -2238,18 +2226,12 @@ input, select, textarea {
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
 		buttonalt:hover,
 		.button0alt:hover {
 			color: #fff;
 			background: #6FC391;
 		}
 	
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
 	button2,
 	.button2 {
 		position: relative;
