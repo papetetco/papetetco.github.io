@@ -2300,7 +2300,7 @@ input, select, textarea {
 	.button3 {
 		position: relative;
 		display: inline-block;
-		background: #17BDCF;
+		background: #17BED0;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2333,7 +2333,71 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: #fff;
-		color: #17BDCF;
+		color: #17BED0;
+		text-align: center;
+		border-radius: 0.5em;
+		text-decoration: none;
+		padding: 0.65em 3em 0.65em 3em;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button3alt:hover,
+		.button3alt:hover {
+			color: #fff;
+			background: #FFDF0C;
+		}
+		
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button4,
+	.button4 {
+		position: relative;
+		display: inline-block;
+		background: #0C59A2;
+		color: #fff;
+		text-align: center;
+		border-radius: 0.5em;
+		text-decoration: none;
+		padding: 0.65em 3em 0.65em 3em;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button4:hover,
+		.button4:hover {
+			color: #fff;
+			background: #FFDF0C;
+		}
+		
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button4alt,
+	.button4alt {
+		position: relative;
+		display: inline-block;
+		background: #fff;
+		color: #0C59A2;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2569,7 +2633,7 @@ input, select, textarea {
 	
 		#newsletter6{
 			position: relative;
-			background-image: url("images/juin2024.jpg");
+			background-image: url("images/juin2024.png");
 			background-size: cover;
 			background-position: center center;
 			/* background-attachment: fixed; */
